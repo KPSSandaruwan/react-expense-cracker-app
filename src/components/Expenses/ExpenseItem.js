@@ -1,7 +1,7 @@
 import React from "react";
-import "../components/ExpenseItem.css";
-import Card from "./Card";
+import Card from "../Utils/Card";
 import ExpenseDate from "./ExpenseDate";
+import './ExpenseItem.css';
 
 function ExpenseItem(props) {
   return (
